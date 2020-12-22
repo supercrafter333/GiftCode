@@ -1,1 +1,17 @@
+name: GiftCode
+main: HannesTheDev\Main
+version: 1.0.0
+api: 3.0.0
+author: HannesTheDev
 
+commands:
+  gencode:
+    description: Create an random gift code
+    permission: gencode.command
+  redeem:
+    description: Redeem a code
+
+permissions:
+  gecode.command:
+    description: /gencode Permission
+    default: op
