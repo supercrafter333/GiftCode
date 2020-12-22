@@ -9,6 +9,7 @@ Command | Description | Default | Alias | Permissions
 
 ## Downloads
 - You can get the latest compiled version in our [Poggit](https://poggit.pmmp.io/ci/HannesTheDev/GiftCode).
+- If you want the German Version you can downlosd it [here]()
 
 ## Installing
 - Download the phar
@@ -24,4 +25,3 @@ This project is licensed under the GNU PUBLIC LICENSE - see the [LICENSE](/LICEN
 
 ## Others
 Info: This Plugin based not on my idea, the code ist from ZulfahmiFjr. I've fixed and translated it. If you had any questions, ideas or an error, you'll can contact me on discord.
-
