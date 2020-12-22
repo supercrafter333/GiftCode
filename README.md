@@ -1,4 +1,4 @@
-# GiftCode [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/HVvQv2TxWs) [![](https://poggit.pmmp.io/shield.state/GiftCode)](https://poggit.pmmp.io/p/GiftCode) [![](https://poggit.pmmp.io/shield.dl.total/GiftCode)](https://poggit.pmmp.io/p/GiftCode) [![Poggit Release](https://poggit.pmmp.io/shield.approved/GiftCode)](https://poggit.pmmp.io/p/GiftCode)
+# GiftCode [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/HVvQv2TxWs)
 GiftCode is an useful plugin wich you can make get gifts with a code.
 
 ## Commands + Permission
