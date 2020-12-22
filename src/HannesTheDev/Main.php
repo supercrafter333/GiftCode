@@ -94,7 +94,7 @@ class Main extends PluginBase implements Listener{
   
   public function RedeemMenu($player){
     if($player instanceof Player){
-      $form = $this->createCustomForm(function(Player $player, array $data)){
+      $form = $this->createCustomForm(function(Player $player, array $data){
         $result = $data[0];
         if($result != null){
           if($this->codeExists($this->giftcode, $result)){
