@@ -115,7 +115,7 @@ class Main extends PluginBase implements Listener{
                   $this->eco->addMoney($player->getName(), 20000)
                   break;
                 default:
-                  $player->sendMessage("§8[§cGiftCode§8] §cThe code could not be fount, please try again!");
+                  $player->sendMessage("§8[§cGiftCode§8] §cThe code could not be found, please try again!");
                   break;
               }
             } else {
@@ -123,11 +123,69 @@ class Main extends PluginBase implements Listener{
               return true;
             }
           } else {
-            $player->sendMessage("§8[§cGiftCode§8] §cThe gift code you usee was not found");
+            $player->sendMessage("§8[§cGiftCode§8] §cThe gift code you used was not found!");
             return true;
           }
+        } else {
+          $player->sendMessage("§8[§cGiftCode§8] §cYou've must write a code in the line to get a gift!");
+          return true;
         }
-      }
+      });
+      $form->setTitle("§8[§cRedeemMenu§8]");
+      $form->setInput("§7Enter the code you want to redeem in the column below:");
+      $form->sendToPlayer($player);
     }
+  }
+  
+  public static function getInstance(){
+    return $this;
+  }
+  
+  public function generateCode(){
+    $characters = "0123456789ABCDEFGHIJKLNMOPQRSTUFWXYZabcdefghijklnmopqrstufwxyz";
+    $charactersLength = strlen($characters);
+    $lenght = 10;
+    $randomString = "2021";
+    for($i = 0; $i < $length; $i++){
+      $randomString .= $characters[rand(0, $charactersLength - 1)];
+    }
+    $this->addCode($this->giftcode, $randomString);
+    return $randomString;
+  }
+  
+  public function codeExists($file, $code){
+    $query = $file->query("SELECT * FROM code WHERE code='$code';");
+    $ar = $query->fetchArray(SQLITE3_ASSOC);
+    if(!empty($ar)){
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  public function addCode($file, $code) {
+    $stmt = $file->prepare("INSERT OR REPLACE INTO code (code) VALUES (:code);");
+    $stmt->bindValue(":code", $code);
+    $stmt->execute();
+  }
+  
+  public function onCommand(CommandSender $player, Command $command, string $label, array $args) : bool{
+    switch($comand->getName()){
+      case "gencode":
+        if($player->isOp()){
+          $code = $this->generateCode();
+          $player->sendMessage("§8[§cGiftCode§8] §7You've successfully §agenerated §7a gift code! §aCode: §c" . $code);
+        } else {
+          $player->sendMessage("§8[§cGiftCode§8] §cYou haven't permission to use this command!")
+        }
+        break;
+      case "redeem":
+        if($player instanceof Player){
+          $this->RedeemMenu($player);
+        } else {
+          $player->sendMessage("§8[§cGiftCode§8] §cYou must be a player to use this command!")
+        }
+    }
+    return true;
   }
 }
