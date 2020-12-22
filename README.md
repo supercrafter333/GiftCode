@@ -9,7 +9,7 @@ Command | Description | Default | Alias | Permissions
 
 ## Downloads
 - You can get the latest compiled version in our [Poggit](https://poggit.pmmp.io/ci/HannesTheDev/GiftCode).
-- If you want the German Version you can downlosd it [here]()
+- If you want the German Version you can downlosd it [here]().
 
 ## Installing
 - Download the phar
