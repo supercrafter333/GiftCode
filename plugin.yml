@@ -3,6 +3,7 @@ main: HannesTheDev\Main
 version: 1.0.0
 api: 3.0.0
 author: HannesTheDev
+website: https://github.com/HannesTheDev/GiftCode
 
 commands:
  gencode:
