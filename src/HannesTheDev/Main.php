@@ -13,6 +13,7 @@ use pocketmine\item\Item;
 use pocketmine\event\player\PlayerQuitEvent;
 use HannesTheDev\FormEvent\Form;
 use HannesTheDev\FormEvent\CustomForm;
+use onebone\economyapi\EconomyAPI;
 
 class Main extends PluginBase implements Listener {
 
