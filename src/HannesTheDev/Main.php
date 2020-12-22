@@ -99,7 +99,6 @@ class Main extends PluginBase implements Listener {
             if(!($this->codeExists($this->used, $result))) {
               $chance = mt_rand(1, 5);
               $this->addCode($this->used, $result);
-              $player = $this->getName();
               switch($chance) {
                 default:
                   $player->sendMessage("§8[§cGiftCode§8] §7You've successfully §aredeem §7the code and get now §a20.000 Dollor§7!");
