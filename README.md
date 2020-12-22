@@ -10,7 +10,7 @@ Command | Description | Default | Alias | Permissions
 
 ## Downloads
 - You can get the latest compiled version in our [Poggit](https://poggit.pmmp.io/ci/HannesTheDev/GiftCode).
-- If you want the German Version you can downlosd it [here]().
+- If you want the German Version you can downlosd it [here](https://www.mediafire.com/file/6ka9o11x2i7wudg/GiftCode.phar/file).
 
 ## Installing
 - Download the phar
@@ -19,6 +19,7 @@ Command | Description | Default | Alias | Permissions
 
 ## Contact
 - Diacord Tag: HannesTheDev#2941
+<a href="https://www.mediafire.com/file/6ka9o11x2i7wudg/GiftCode.phar/file" target="_blank">https://www.mediafire.com/file/6ka9o11x2i7wudg/GiftCode.phar/file</a>
 - [Discord Support](https://discord.gg/HVvQv2TxWs)
 
 ## License
