@@ -126,7 +126,7 @@ class Main extends PluginBase implements Listener {
   }
 
   public static function getInstance() {
-    return $form;
+    return true;
   }
 
   public function generateCode() {
