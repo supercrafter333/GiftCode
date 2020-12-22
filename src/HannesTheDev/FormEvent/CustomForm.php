@@ -5,7 +5,7 @@ namespace HannesTheDev\FormEvent;
 use pocketmine\network\mcpe\protocol\ModalFormRequestPacket;
 use pocketmine\Player;
 
-class CustomForm extends Form{
+class CustomForm extends Form {
 
   public $id;
   private $data = [];
@@ -33,11 +33,11 @@ class CustomForm extends Form{
 
   public function processData(&$data) : void {
     if(is_array($data)) {
-    $new = [];
-    foreach ($data as $i => $v) {
-      $new[$this->labelMap[$i]] = $v;
-    }
-    $data = $new;
+      $new = [];
+      foreach ($data as $i => $v) {
+        $new[$this->labelMap[$i]] = $v;
+      }
+      $data = $new;
     }
   }
 
@@ -95,6 +95,6 @@ class CustomForm extends Form{
   }
 
   private function addContent(array $content) : void {
-    $this->data["content"][] = $content;
+     $this->data["content"][] = $content;
   }
 }

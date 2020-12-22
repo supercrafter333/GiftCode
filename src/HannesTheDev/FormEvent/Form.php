@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftCode\FormEvent;
+namespace HannesTheDev\FormEvent;
 
 use pocketmine\network\mcpe\protocol\ModalFormRequestPacket;
 use pocketmine\Player;
