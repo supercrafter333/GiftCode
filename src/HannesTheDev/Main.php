@@ -134,7 +134,7 @@ $form->sendToPlayer($player);
      $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
      $charactersLength = strlen($characters);
      $length = 10;
-     $randomString = 'CODE';
+     $randomString = '2021';
      for ($i = 0; $i < $length; $i++) {
       $randomString .= $characters[rand(0, $charactersLength - 1)];
      }
