@@ -2,7 +2,8 @@ name: GiftCode
 main: HannesTheDev\Main
 version: 1.0.0
 api: 3.0.0
-author: HannesTheDev
+author: ZulfahmiFjr
+translator: HannesTheDev
 website: https://github.com/HannesTheDev/GiftCode
 
 commands:
