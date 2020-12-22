@@ -17,8 +17,8 @@ Command | Description | Default | Alias | Permissions
 - Restart the server and enjoy the plugin
 
 ## Contact
-- DiacordTag: HannesTheDev#2941
-- [Support](https://discord.gg/HVvQv2TxWs)
+- Diacord Tag: HannesTheDev#2941
+- [Discord Support](https://discord.gg/HVvQv2TxWs)
 
 ## License
 This project is licensed under the GNU PUBLIC LICENSE - see the [LICENSE](/LICENSE) file for more details.
