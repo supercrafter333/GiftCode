@@ -172,7 +172,7 @@ class Main extends PluginBase implements Listener{
   public function onCommand(CommandSender $player, Command $command, string $label, array $args) : bool{
     switch($comand->getName()){
       case "gencode":
-        if($player->isOp()){
+        if($player->hasPermission("gencode.command")){
           $code = $this->generateCode();
           $player->sendMessage("§8[§cGiftCode§8] §7You've successfully §agenerated §7a gift code! §aCode: §c" . $code);
         } else {
