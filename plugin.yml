@@ -5,13 +5,13 @@ api: 3.0.0
 author: HannesTheDev
 
 commands:
-  gencode:
-    description: Create an random gift code
-    permission: gencode.command
-  redeem:
-    description: Redeem a code
+ gencode:
+     description: Generate a giftcode
+     permission: gencode.command
+ redeem:
+     description: Redeem a giftcode
 
 permissions:
-  gecode.command:
-    description: /gencode Permission
-    default: op
+ gencode.command:
+     description: /gencode permission
+     default: op
