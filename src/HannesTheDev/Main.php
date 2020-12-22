@@ -30,8 +30,6 @@ class Main extends PluginBase implements Listener {
     if(is_null($plugin)) {
       $this->getLogger()->info("You must installing EconomyAPI");
       $this->getServer()->shutdown();
-    } else {
-      $this->eco = EconomyAPI::getInstance();
     }
     $this->formCount = rand(0, 0xFFFFFFFF);
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -105,7 +103,7 @@ class Main extends PluginBase implements Listener {
               switch($chance) {
                 default:
                   $player->sendMessage("§8[§cGiftCode§8] §7You've successfully §aredeem §7the code and get now §a20.000 Dollor§7!");
-                  $this->eco->addMoney($player->getName(), 20000);
+                  EconomyAPI::getInstance()->addMoney($player, 20000);
                   break;
               }
             } else {
