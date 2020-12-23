@@ -126,7 +126,7 @@ $form->sendToPlayer($player);
 }
 
     public static function getInstance() {
-     return $this;
+     return true;
     }
 
     public function generateCode() {
