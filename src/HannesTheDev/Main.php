@@ -102,7 +102,7 @@ class Main extends PluginBase implements Listener {
          $this->addCode($this->used, $result);
          switch($chance) {
          default:
-          $player->sendMessage("§8[§cGiftCode§8] §7You've successfully §aredeem §7the code and get now §a20.000 Dollor§7!");
+          $player->sendMessage("§8[§cGiftCode§8] §7You've successfully §aredeem §7the code and get now §a20.000 Dollar§7!");
           $this->eco->addMoney($player->getName(), 20000);
           break;
         }
