@@ -12,7 +12,7 @@ Command | Description | Default | Alias | Permissions
 - If you want the German Version you can downlosd it [here](https://www.mediafire.com/file/nw7jk78ll5b42sv/GiftCode.phar/file).
 
 ## Installing
-- Download the phar
+- Download the [phar](https://poggit.pmmp.io/ci/HannesTheDev/GiftCode)
 - Put it in your plugin folder
 - Restart the server and enjoy the plugin
 
@@ -24,4 +24,4 @@ Command | Description | Default | Alias | Permissions
 This project is licensed under the GNU PUBLIC LICENSE - see the [LICENSE](/LICENSE) file for more details.
 
 ## Others
-Info: This Plugin based not on my idea, the code ist from ZulfahmiFjr. I've fixed and translated it. If you had any questions, ideas or an error, you'll can contact me on discord.
+Info: This Plugin based not on my idea, the code ist from ZulfahmiFjr. I've fixed and translated it. If you had any questions, ideas or an error, you'll can contact me on [discord](https://discord.gg/HVvQv2TxWs).
