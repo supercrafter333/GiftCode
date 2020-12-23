@@ -9,7 +9,7 @@ Command | Description | Default | Alias | Permissions
 
 ## Downloads
 - You can get the latest compiled version in our [Poggit](https://poggit.pmmp.io/ci/HannesTheDev/GiftCode).
-- If you want the German Version you can downlosd it [here](https://www.mediafire.com/file/nw7jk78ll5b42sv/GiftCode.phar/file).
+- If you want the German Version you can download it [here](https://www.mediafire.com/file/nw7jk78ll5b42sv/GiftCode.phar/file).
 
 ## Installing
 - Download the [phar](https://poggit.pmmp.io/ci/HannesTheDev/GiftCode)
